@@ -5,6 +5,7 @@ import React from 'react';
 const Cargos: React.FC = () => {
   return (
     <h2>Cargos</h2>
+    
   );
 }
 
