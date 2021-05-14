@@ -1,11 +1,13 @@
 import React from 'react';
 
-// import { Container } from './styles';
+
+import { Container , Content } from './styles';
 
 const Obras: React.FC = () => {
-  return (
-    <h2>Obras</h2>
-  );
+
+ return (
+   <h2></h2>
+ )
 }
 
 export default Obras;

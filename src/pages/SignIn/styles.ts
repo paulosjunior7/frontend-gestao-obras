@@ -36,7 +36,7 @@ export const Formulario = styled(Form)`
 
 export const Container = styled.div`
    // background: linear-gradient( #3eadcf, #abe9cd);
-   background-color:  #FAFAFA;
+   background-color:  '#FAFAFA';
     width: 100vw;
     height: 100vh;
 `;

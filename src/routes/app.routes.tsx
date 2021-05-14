@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import Home from '../pages/Home';
 import Header from '../components/Header';
+import SideMenu from '../components/SideMenu';
 
 import { Menu } from './menu';
 
@@ -29,9 +30,10 @@ const AppRoutes: React.FC<Props> = ({ children }) => {
 
   return (
     <Router>
+      <SideMenu />
       <Header />
+        <div style={{ marginLeft: '260px'}}>
           {children}
-        <div style={{ padding: '15px'}}>
           <Switch>
               { keys.map(mapRoutes)}
           </Switch>

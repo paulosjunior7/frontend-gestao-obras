@@ -10,80 +10,104 @@ import Obras from "../pages/Obras";
 import Produtos from "../pages/Produtos";
 import Terceirizados from "../pages/Terceirizados";
 import Usuarios from "../pages/Usuarios";
-
+import { BiMapAlt  , BiLayer  ,BiDetail , BiTask  ,  BiStats , BiBell , BiHelpCircle , BiShuffle, BiCar , BiRightArrowAlt } from 'react-icons/bi';
 
 export const Menu = [
     {
         id: 1,
         name: 'Obras',
         path: '/obras',
-        component: Obras
+        component: Obras,
+        icon: BiTask,
+        children: null,
        
     },
     {
         id: 2,
         name: 'Produtos',
         path: '/produtos',
-        component: Produtos
+        component: Produtos,
+        icon: BiTask,
+        children: null,
     },
     {
         id: 3,
         name: 'Contatos',
         path: '/contatos',
-        component: Contatos
+        component: Contatos,
+        icon: BiTask,
+        children: null,
     },
     {
         id: 4,
         name: 'Documentação',
         path: '/documentacao',
-        component: Documentos
+        component: Documentos,
+        icon: BiTask,
+        children: null,
     },
     {
         id: 5,
         name: 'Despesas',
         path: '/despesas', 
-        component: Despesas
+        component: Despesas,
+        icon: BiTask,
+        children: null,
     },
     {
         id: 6,
         name: 'Marcas',
         path: '/marcas',
-        component: Marcas
+        component: Marcas,
+        icon: BiTask,
+        children: null,
     },
     {
         id: 7,
         name: 'Fornecedores',
         path: '/fornecedores',
-        component: Fornecedores
+        component: Fornecedores,
+        icon: BiTask,
+        children: null,
     },
     {
         id: 8,
         name: 'Usuários',
         path: '/usuarios',
-        component: Usuarios
+        component: Usuarios,
+        icon: BiTask,
+        children: null,
     },
     {
         id: 9,
         name: 'Empresas',
         path: '/empresas',
-        component: Empresas
+        component: Empresas,
+        icon: BiTask,
+        children: null,
     },
     {
         id: 10,
         name: 'Cargos',
         path: '/cargos',
-        component: Cargos
+        component: Cargos,
+        icon: BiTask,
+        children: null,
     },
     {
         id: 11,
         name: 'Funcionários',
         path: '/funcionarios',
-        component : Funcionarios
+        component : Funcionarios,
+        icon: BiTask,
+        children: null,
     },
     {
         id: 11,
         name: 'Terceirizados',
         path: '/terceirizados',
-        component: Terceirizados
+        component: Terceirizados,
+        icon: BiTask,
+        children: null,
     },
 ];

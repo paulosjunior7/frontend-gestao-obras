@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 export const Container = styled.div`   
     width: 100%;
-    height: 33px;
     display: flex;
 
     ul {
@@ -20,7 +19,7 @@ export const Container = styled.div`
             width: auto;
             margin-right: 8px;
             cursor: pointer;
-            color: #666;
+            color: #ffffff;
             margin-bottom: 3px;
             font-size: 1.5rem;
         }

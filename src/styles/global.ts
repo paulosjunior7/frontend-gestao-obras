@@ -8,7 +8,7 @@ export default createGlobalStyle`
     }
     html, body {
         height: 100vh;
-        font: 62.5% inter, sans-serif;
+        font: 62.5% Nunito, sans-serif;
         -webkit-font-smoothing: antialiased;
     }
     body {
@@ -16,7 +16,7 @@ export default createGlobalStyle`
         -webkit-font-smoothing: antialiased;
     }
     body  , input , button   {
-        background: ${props => props.theme.colors.background};
+        background: #f9fafd;
         color: ${props => props.theme.colors.text};
         -webkit-font-smoothing: antialiased;
     }
